@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 import ddLogo from "../../assets/dd-logo.png";
 import disLogo from "../../assets/discord-logo.png";
 import gitLogo from "../../assets/github-logo.png";
@@ -9,18 +10,18 @@ import linLogo from "../../assets/linkedin-logo.png";
 const Navbar = () => {
   return (
     <div className="navbar_container">
-      <img src={ddLogo} href="#home" />
+      <img src={ddLogo} href="#home" id="ddLogo" />
       <div className="navbar_links-container">
-        <p>
+        <p className="navbar_link">
           <a href="#about">ABOUT</a>
         </p>
-        <p>
+        <p className="navbar_link">
           <a href="#skills">SKILLS</a>
         </p>
-        <p>
+        <p className="navbar_link">
           <a href="#projects">PROJECTS</a>
         </p>
-        <p>
+        <p className="navbar_link">
           <a href="#contact">CONTACT</a>
         </p>
       </div>
