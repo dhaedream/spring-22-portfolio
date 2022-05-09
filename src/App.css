@@ -1,3 +1,4 @@
-.App {
+body {
   background: #010110;
+  color: var(--color-grey);
 }
