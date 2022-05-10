@@ -1,9 +1,25 @@
 .features {
+  padding-bottom: 3vh;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .features_single-column {
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 22vw;
+  padding-left: 1vw;
+}
+.features_icon-img {
+  height: 20vh;
+  width: 20vh;
+  margin-bottom: 4vh;
+}
+.features_header {
+  font-size: 1.5rem;
+  padding-bottom: 1vh;
+}
+.features_body-para {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
