@@ -8,15 +8,17 @@ const Projects = () => {
       <div className="projects_outer-container">
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img src={codeProject} />
-            <h3>SMART CONTRACTS</h3>
-            <p>
-              Add a little bit of body text. Add a little bit of body text.Add a
-              little bit of body text.
-            </p>
+            <img className="projects_img" src={codeProject} />
+            <div className="projects_description-wrapper">
+              <h3>SMART CONTRACTS</h3>
+              <p>
+                Add a little bit of body text. Add a little bit of body text.Add
+                a little bit of body text.
+              </p>
+            </div>
           </div>
           <div className="projects_single-container">
-            <img src={codeProject} />
+            <img className="projects_img" src={codeProject} />
             <h3>SMART CONTRACTS</h3>
             <p>
               Add a little bit of body text. Add a little bit of body text.Add a
@@ -26,7 +28,7 @@ const Projects = () => {
         </div>
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img src={codeProject} />
+            <img className="projects_img" src={codeProject} />
             <h3>SMART CONTRACTS</h3>
             <p>
               Add a little bit of body text. Add a little bit of body text.Add a
@@ -34,7 +36,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="projects_single-container">
-            <img src={codeProject} />
+            <img className="projects_img" src={codeProject} />
             <h3>SMART CONTRACTS</h3>
             <p>
               Add a little bit of body text. Add a little bit of body text.Add a
