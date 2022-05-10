@@ -8,9 +8,9 @@ const Intro = () => {
       <p className="intro-par">
         MY NAME IS <span>DHAESHA MYERS</span> . I AM A{" "}
         <span>CREATIVE WEB3 DEVELOPER</span> WITH A PASSION FOR ART AND
-        TECHNOLOGY. EQUIPPED WITH <span>SOLID FRONT END DEVELOPMENT</span>
+        TECHNOLOGY. EQUIPPED WITH <span>SOLID FRONT END DEVELOPMENT </span>
         SKILLS, I EXPLORE DIFFERENT WAYS TO CONNECT PRETTY WEBSITES TO THE
-        <span>ETHEREUM BLOCKCHAIN</span>.
+        <span> ETHEREUM BLOCKCHAIN</span>.
       </p>
     </div>
   );
