@@ -1,0 +1,8 @@
+.projects_outer-container {
+  display: flex;
+  flex-direction: column;
+}
+.projects_row-container {
+  display: flex;
+  flex-direction: row;
+}
