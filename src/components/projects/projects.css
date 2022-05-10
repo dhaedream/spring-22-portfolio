@@ -2,11 +2,16 @@
   display: flex;
   flex-direction: column;
 }
+.projects_header {
+  margin: 0 auto 9vh;
+  font-size: 4rem;
+}
 .projects_row-container {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 8vh;
 }
 .projects_single-container {
   display: flex;
@@ -18,9 +23,22 @@
   border-radius: 50px;
   padding: 10px;
 }
+.projects_description-wrapper {
+  padding-left: 2vw;
+  padding-right: 1vw;
+
+  /* margin: 9px; */
+}
 .projects_single-container h3 {
+  font-size: 2rem;
   padding: 2rem 0 1rem;
 }
 .projects_single-container p {
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
+  /* margin: 1px 3px; */
+  margin-right: 4px;
+  font-size: 1.5rem;
+}
+.projects_container-para {
+  margin-right: 4px;
 }

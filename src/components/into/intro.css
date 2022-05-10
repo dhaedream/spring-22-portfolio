@@ -4,14 +4,15 @@
   padding-bottom: 2vh;
 }
 .intro-header {
-  font-size: 4.5rem;
-  padding: 6vh 0 2vh 0;
+  font-size: 6rem;
+  padding: 8vh 0 4vh 0;
 }
 .intro-par {
-  font-size: 2.2rem;
-  line-height: 2.7rem;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   letter-spacing: 0.15rem;
   text-align: justify;
+  padding: 7px;
   /* text-align: left; */
 }
 .intro-par span {
