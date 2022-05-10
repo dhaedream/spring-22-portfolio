@@ -1,6 +1,10 @@
+.projects {
+  padding-bottom: 5vh;
+}
 .projects_outer-container {
   display: flex;
   flex-direction: column;
+  /* padding-bottom: 5vh; */
 }
 .projects_header {
   margin: 0 auto 9vh;
@@ -41,4 +45,9 @@
 }
 .projects_container-para {
   margin-right: 4px;
+}
+.projects_button {
+  padding: 7px 5px;
+  font-size: 1.2rem;
+  margin-left: 4vw;
 }

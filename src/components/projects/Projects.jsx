@@ -4,7 +4,7 @@ import codeProject from "../../assets/solidity-code.jpeg";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="projects">
       {/* <h1 className="projects_header">PROJECTS</h1> */}
       <div className="projects_outer-container">
         <h1 className="projects_header">PROJECTS</h1>
@@ -36,7 +36,7 @@ const Projects = () => {
             <img className="projects_img" src={codeProject} />
             <div className="projects_description-wrapper">
               <h3>SMART CONTRACTS</h3>
-              <p>
+              <p className="projects_container-para">
                 Add a little bit of body text. Add a little bit of body text.Add
                 a little bit of body text.
               </p>
@@ -54,6 +54,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <button className="projects_button">PROJECTS</button>
     </div>
   );
 };
