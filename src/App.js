@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Header from "./components/header/Header";
 import Intro from "./components/into/Intro";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Intro />
       <Features />
+      <Banner />
     </div>
   );
 }

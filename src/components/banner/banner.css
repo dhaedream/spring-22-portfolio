@@ -1,0 +1,7 @@
+.banner {
+  min-height: 40vh;
+  max-height: 55vh;
+  width: 100%;
+  background: url("../../assets/banner-dots.png");
+  background-size: 92%;
+}
