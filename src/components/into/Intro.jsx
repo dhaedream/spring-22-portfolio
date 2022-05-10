@@ -3,9 +3,9 @@ import "./intro.css";
 
 const Intro = () => {
   return (
-    <div>
-      <h2>//HELLO WORLD</h2>
-      <p>
+    <div className="intro_container">
+      <h2 className="intro-header">//HELLO WORLD</h2>
+      <p className="intro-par">
         MY NAME IS <span>DHAESHA MYERS</span> . I AM A{" "}
         <span>CREATIVE WEB3 DEVELOPER</span> WITH A PASSION FOR ART AND
         TECHNOLOGY. EQUIPPED WITH <span>SOLID FRONT END DEVELOPMENT</span>

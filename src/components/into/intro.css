@@ -1,0 +1,14 @@
+.intro_container {
+  display: flex;
+  flex-direction: column;
+}
+.intro-header {
+  padding: 3vh 0 1.5vh 0;
+}
+.intro-par {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.15rem;
+  text-align: justify;
+  /* text-align: left; */
+}
