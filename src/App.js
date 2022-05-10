@@ -4,6 +4,7 @@ import Features from "./components/features/Features";
 import Header from "./components/header/Header";
 import Intro from "./components/into/Intro";
 import Navbar from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <Features />
       <Banner />
+      <Projects />
     </div>
   );
 }
