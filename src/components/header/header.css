@@ -5,11 +5,14 @@
 .header_top {
   background: rgb(62, 62, 62);
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 h2 {
   font-size: 4.5rem;
 }
-.header_banner {
-  background: rgb(69, 98, 153);
-  height: 40vh;
+.header_banner-img {
+  min-height: 40vh;
+  max-height: 55vh;
 }
