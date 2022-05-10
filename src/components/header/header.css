@@ -3,11 +3,11 @@
   flex-direction: column;
 }
 .header_top {
-  background: rgb(62, 62, 62);
   height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 1rem;
 }
 h2 {
   font-size: 4.5rem;
