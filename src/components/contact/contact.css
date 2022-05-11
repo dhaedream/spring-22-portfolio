@@ -1,0 +1,10 @@
+.contact_cloud img {
+  /* top: -5vh; */
+  height: 25vh;
+  position: absolute;
+  right: -5vw;
+  /* padding-bottom: 5vh; */
+}
+.contact_open-span {
+  height: 25vh;
+}
