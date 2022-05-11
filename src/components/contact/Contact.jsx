@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import cloud from "../../assets/ty-cloud-dark.png";
+// import cloud from "../../assets/ty-cloud-dark.png";
 import targetIcon from "../../assets/contact-location.png";
 
 const Contact = () => {
