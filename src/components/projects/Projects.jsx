@@ -1,8 +1,9 @@
 import React from "react";
 import "./projects.css";
-import codeProject from "../../assets/solidity-code.jpeg";
+import codeProject from "../../assets/solidity-code.png";
 import boredApe from "../../assets/bored-ape.png";
 import nft from "../../assets/nft.png";
+import land from "../../assets/land.png";
 
 const Projects = () => {
   return (
@@ -35,7 +36,7 @@ const Projects = () => {
         </div>
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img className="projects_img" src={codeProject} />
+            <img className="projects_img" src={land} />
             <div className="projects_description-wrapper">
               <h3>PROPERTY NFT METAVERSE</h3>
               <p>
@@ -56,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <button className="projects_button">PROJECTS</button>
+      {/* <button className="projects_button">PROJECTS</button> */}
     </div>
   );
 };

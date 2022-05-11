@@ -14,10 +14,10 @@ const Contact = () => {
         <img className="contact_cloud-img" src={cloud} />
       </div> */}
       <div className="contact_card">
-        <div className="contact_open-span">
+        {/* <div className="contact_open-span">
           <span className="contact_span-1">OPEN</span>
           <span className="contact_span-2">TO CONNECT</span>
-        </div>
+        </div> */}
         <div className="contact_card-content-wrapper">
           <div className="contact_card-main">
             <div className="contact_card-row-wrap">
