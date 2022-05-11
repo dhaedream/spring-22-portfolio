@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact_cloud">
-        <img className="" src={cloud} />
+        <img className="contact_cloud-img" src={cloud} />
       </div>
       <div className="contact_card-outer-container">
         <div className="contact_card">
