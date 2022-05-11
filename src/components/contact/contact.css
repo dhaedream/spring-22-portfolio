@@ -1,38 +1,29 @@
 .contact {
-  height: 80vh;
-  border: solid rgb(255, 255, 255) 1px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-.contact_inner-wrapper {
-  background-image: none;
-  display: flex;
-  flex-direction: column;
-  border: solid rgb(255, 6, 6) 1px;
+  align-items: center;
   height: 70vh;
-  /* position: relative; */
-}
-.contact_cloud {
-  height: 28vh;
-  display: flex;
-  align-self: flex-end;
-  position: absolute;
-  margin-bottom: 5vh;
-  /* position: relative; */
-}
-.contact_cloud-img {
-  height: 110%;
-  /* height: 30vh; */
+  position: relative;
+  border: solid rgb(112, 112, 112) 1px;
 }
 .contact_open-span {
-  height: 15vh;
-  border: solid rgb(6, 168, 255) 4px;
-
-  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border: solid rgb(66, 171, 242) 1px;
+  width: fit-content;
+  padding: 1rem;
+  margin: 4vh 0 5vh 2vw;
+}
+.contact_span-1 {
+  font-size: 2.3rem;
+}
+.contact_span-2 {
+  font-size: 1rem;
 }
 .contact_card-content-wrapper {
-  border: solid white 1px;
+  border: solid rgb(112, 112, 112) 4px;
+  width: 90vw;
 }
 .contact_card-main {
   display: flex;
@@ -41,20 +32,38 @@
   justify-content: flex-start;
   align-items: flex-start;
   justify-content: center;
-  min-width: 75vw;
+  min-width: 85vw;
   max-width: 90vw;
   max-height: 90vh;
   /* height: 350px; */
   /* width: 350px; */
-  padding: 2vh 0 2vh 25px;
+  padding: 3vh 0 6vh 5vw;
   /* padding-left: 25px; */
   border: solid white 1px;
   /* font-family: theBold; */
   font-family: skills;
   font-size: 20px;
 }
+.contact_card-row-wrap {
+  padding: 1vh 0;
+}
+.contact_card-row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* height: ; */
+  /* border: solid white 1px; */
+}
 .contact_card-row img {
-  height: 5vh;
+  height: 6vh;
   width: auto;
-  padding-right: 5px;
+
+  /* padding-right: 5px; */
+}
+.contact_card-row span {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 0.8rem;
+  /* border: solid white 1px; */
 }
