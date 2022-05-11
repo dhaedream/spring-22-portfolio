@@ -6,44 +6,33 @@ import targetIcon from "../../assets/contact-location.png";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="contact_cloud">
-        <img className="contact_cloud-img" src={cloud} />
-      </div>
-      <div className="contact_card-outer-container">
-        <div className="contact_card">
-          <div className="contact_open-span">
-            <span className="contact_span-1">OPEN</span>
-            <span className="contact_span-2">TO CONNECT</span>
-          </div>
-          <div className="contact_card-content-wrapper">
-            <div className="contact_card-main">
-              <div className="contact_card-row">
-                <img className="" src={targetIcon} />
-                <span>Washington D.C.</span>
-              </div>
-              <div className="contact_card-row">
-                <img className="" src={targetIcon} />
-                <span>Washington D.C.</span>
-              </div>
-              <div className="contact_card-row">
+      <div className="contact_inner-wrapper">
+        <div className="contact_cloud">
+          <img className="contact_cloud-img" src={cloud} />
+        </div>
+        <div className="contact_open-span">
+          <span className="contact_span-1">OPEN</span>
+          <span className="contact_span-2">TO CONNECT</span>
+        </div>
+        <div className="contact_card-outer-container">
+          <div className="contact_card">
+            <div className="contact_card-content-wrapper">
+              <div className="contact_card-main">
                 <div className="contact_card-row">
                   <img className="" src={targetIcon} />
                   <span>Washington D.C.</span>
                 </div>
-              </div>
-              <div class="con-row">
                 <div className="contact_card-row">
                   <img className="" src={targetIcon} />
                   <span>Washington D.C.</span>
                 </div>
-              </div>
-              <div class="con-row">
                 <div className="contact_card-row">
-                  <img className="" src={targetIcon} />
-                  <span>Washington D.C.</span>
+                  <div className="contact_card-row">
+                    <img className="" src={targetIcon} />
+                    <span>Washington D.C.</span>
+                  </div>
                 </div>
-              </div>
-              <div class="con-row">
+
                 <div className="contact_card-row">
                   <img className="" src={targetIcon} />
                   <span>Washington D.C.</span>

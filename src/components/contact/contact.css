@@ -1,20 +1,35 @@
 .contact {
+  height: 80vh;
+  border: solid rgb(255, 255, 255) 1px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
+  justify-content: center;
+}
+.contact_inner-wrapper {
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  border: solid rgb(255, 6, 6) 1px;
+  height: 70vh;
+  /* position: relative; */
 }
 .contact_cloud {
   height: 28vh;
   display: flex;
   align-self: flex-end;
   position: absolute;
+  margin-bottom: 5vh;
+  /* position: relative; */
 }
 .contact_cloud-img {
   height: 110%;
+  /* height: 30vh; */
 }
 .contact_open-span {
   height: 15vh;
+  border: solid rgb(6, 168, 255) 4px;
+
+  /* position: relative; */
 }
 .contact_card-content-wrapper {
   border: solid white 1px;
