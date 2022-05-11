@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/banner/Banner";
+import Cloud from "./components/cloud/Cloud";
 import Contact from "./components/contact/Contact.jsx";
 import Features from "./components/features/Features";
 import Header from "./components/header/Header";
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Banner />
       <Projects />
+      <Cloud />
       <Contact />
     </div>
   );

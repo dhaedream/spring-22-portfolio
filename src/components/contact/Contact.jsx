@@ -1,7 +1,10 @@
 import React from "react";
 import "./contact.css";
-// import cloud from "../../assets/ty-cloud-dark.png";
 import targetIcon from "../../assets/contact-location.png";
+import avatar from "../../assets/contact-avatar.png";
+import phone from "../../assets/contact-phone.png";
+import github from "../../assets/contact-github.png";
+import linkedin from "../../assets/contact-linkedin.png";
 
 const Contact = () => {
   return (
@@ -19,7 +22,7 @@ const Contact = () => {
           <div className="contact_card-main">
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={targetIcon} />
+                <img className="" src={avatar} />
                 <span>Dhaesha Myers</span>
               </div>
             </div>
@@ -31,19 +34,19 @@ const Contact = () => {
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={targetIcon} />
+                <img className="" src={phone} />
                 <span>202-550-1234</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={targetIcon} />
+                <img className="" src={github} />
                 <span>My Github</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={targetIcon} />
+                <img className="" src={linkedin} />
                 <span>My LinkedIn</span>
               </div>
             </div>
