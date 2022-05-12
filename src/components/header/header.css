@@ -12,11 +12,13 @@
 }
 .header_container h2 {
   font-size: 8rem;
+  color: azure;
+  /* font-family: var(--font-header-0); */
   /* padding-top: 80vh; */
 }
 .header_banner-img {
   /* min-height: 40vh;
   max-height: 55vh; */
   height: 70vh;
-  opacity: 0.75;
+  /* opacity: 0.85; */
 }

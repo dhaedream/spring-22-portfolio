@@ -14,13 +14,13 @@
 .navbar_links-container {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   align-items: center;
 }
 .navbar_link {
   padding: 0 1.5vw;
 }
 .navbar_links-container a {
+  font-size: 1.2rem;
   text-decoration: none;
   color: var(--color-grey);
 }
@@ -34,4 +34,24 @@
 }
 .navbar_logo-container img {
   height: 3vh;
+  /* padding-right: 2vw; */
+}
+/* medium screen */
+@media screen and (max-width: 992px) {
+  .navbar_container {
+    padding: 1vh 2vh;
+  }
+  .navbar_link {
+    padding: 0 2vw;
+  }
+}
+/* small screen */
+@media (max-width: 575.98px) {
+  .navbar_links-container {
+    display: none;
+  }
+  .navbar_logo-container img {
+    height: 4vh;
+    /* padding-right: 3vh 2vw; */
+  }
 }

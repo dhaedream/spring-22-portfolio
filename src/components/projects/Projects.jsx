@@ -18,18 +18,19 @@ const Projects = () => {
             <div className="projects_description-wrapper">
               <h3>BORED APE CLONE</h3>
               <p>
-                This is a clone of a very popualar NFT website. The project was
-                built using React and is being hosted on codesandbox.
+                This is a clone of a very popular NFT website. Built using
+                React, just like this website.
               </p>
             </div>
           </div>
           <div className="projects_single-container">
             <img className="projects_img" src={nft} />
             <div className="projects_description-wrapper">
-              <h3>MINTING APP</h3>
+              <h3>MINTING DAPP</h3>
               <p>
-                In this decentralized application, users are able to create,
-                purchase, and sell custom NFT's on a test blockchain network.
+                Decentralized application. Users will be able to create,
+                purchase, & sell custom NFT's on a test blockchain network.
+                Currently connecting Smart Contracts to a front end.
               </p>
             </div>
           </div>
@@ -40,8 +41,9 @@ const Projects = () => {
             <div className="projects_description-wrapper">
               <h3>PROPERTY NFT METAVERSE</h3>
               <p>
-                In this decentralized application, users are able to create,
-                purchase, and sell custom NFT's on a test blockchain network.
+                In this decentralized application, users will be able to create,
+                purchase, and sell NFT real-estate in a 3D Metaverse. Currently
+                troubleshooting Land smart contract.
               </p>
             </div>
           </div>
@@ -50,8 +52,8 @@ const Projects = () => {
             <div className="projects_description-wrapper">
               <h3>SMART CONTRACTS</h3>
               <p>
-                Add a little bit of body text. Add a little bit of body text.Add
-                a little bit of body text.
+                With a nice understanding of the blockchain, I have been coding
+                Smart Contracts using solidity on test networks.
               </p>
             </div>
           </div>

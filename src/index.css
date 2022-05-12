@@ -1,7 +1,9 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
 :root {
   --color-pink: #ff8cf3;
   --color-blue: #53c0ce;
   --color-grey: #b2c5cf;
+
+  --font-header-0: "Titan One", sans-serif;
 }

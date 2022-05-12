@@ -31,14 +31,14 @@ const Features = () => {
         <h3 className="features_header">TECHNOLOGIES</h3>
         <p className="features_body-para">
           <p>React, HardHat, Truffle, Ethers, Web3</p>
-          <p>a little python + database languages</p>
+          <p>a little python + DB models</p>
         </p>
       </div>
       <div className="features_single-column">
         <img src={cloudIcon} className="features_icon-img" />
-        <h3 className="features_header">DHAE DREAM</h3>
+        <h3 className="features_header">MY DREAM</h3>
         <p className="features_body-para">
-          <p>Build web3 DApps </p>
+          <p>Build Metaverses!</p>
           <p>Collaborate on an awesome team</p>
           <p>Become a Web3 Expert</p>
         </p>
