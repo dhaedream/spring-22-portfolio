@@ -50,6 +50,10 @@
     font-size: 4.5rem;
   }
   .header_banner-img {
+    /* min-height: 40vh; */
+
+    /* width: 100vw;
+    height: auto; */
     height: 40vh;
   }
 }

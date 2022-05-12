@@ -6,6 +6,7 @@
   align-items: center;
   /* padding: 0 3vw; */
   justify-content: space-between;
+  padding: 10px 15px 0 0;
 }
 #ddLogo {
   display: flex;
@@ -30,7 +31,7 @@
   align-items: center;
 }
 .navbar_logo-container a {
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 .navbar_logo-container img {
   height: 3vh;
@@ -57,7 +58,7 @@
     display: none;
   }
   .navbar_logo-container img {
-    height: 4vh;
+    height: 4.5vh;
     /* padding-right: 3vh 2vw; */
   }
 }

@@ -4,7 +4,7 @@ import "./intro.css";
 const Intro = () => {
   return (
     <div className="intro_container">
-      <h2 className="intro-header">//HELLO WORLD</h2>
+      <h2 className="intro-header">HELLO WORLD</h2>
       <p className="intro-par">
         MY NAME IS <span>DHAESHA MYERS</span> . I AM A{" "}
         <span>CREATIVE WEB3 DEVELOPER</span> WITH A PASSION FOR ART AND
