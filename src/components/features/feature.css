@@ -50,6 +50,7 @@
   .features_icon-img {
     height: 17vh;
     width: 17vh;
+    padding: 1.8vh;
     margin-bottom: 3vh;
   }
   .features_content-wrapper {
@@ -61,7 +62,8 @@
   }
   .features_body-para {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.7rem;
+    padding-left: 4vw;
   }
 }
 
@@ -84,6 +86,7 @@
   }
   .features_content-wrapper {
     text-align: center;
+    width: 100%;
   }
   .features_content-wrapper p {
     text-align: left;

@@ -12,11 +12,11 @@ const Features = () => {
         <img src={skillsIcon} className="features_icon-img" />
         <div className="features_content-wrapper">
           <h3 className="features_header">SKILLSET</h3>
-          <p className="features_body-para">
+          <div className="features_body-para">
             <p> Team Player </p>
-            <p>Self Taught Web Developer</p>
+            <p>Web Designer /Developer</p>
             <p> Blockchain Focused</p>
-          </p>
+          </div>
         </div>
       </div>
       <div className="features_single-column">
@@ -25,7 +25,7 @@ const Features = () => {
           <h3 className="features_header">BACKGROUND</h3>
           <p className="features_body-para">
             <p>Artist</p>
-            <p>5 years of IT Support</p>
+            <p>5 years in IT Support</p>
             <p>Freelance Graphic Design</p>
           </p>
         </div>
@@ -45,8 +45,8 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">MY DREAM</h3>
           <p className="features_body-para">
-            <p>Build Metaverses!</p>
-            <p>Collaborate on an awesome team</p>
+            <p>Build on blockchain!</p>
+            <p>Learn on an awesome team</p>
             <p>Become a Web3 Expert</p>
           </p>
         </div>

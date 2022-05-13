@@ -41,13 +41,13 @@ const Contact = () => {
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
                 <img className="" src={github} />
-                <span>My Github</span>
+                <span>Github</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
                 <img className="" src={linkedin} />
-                <span>My LinkedIn</span>
+                <span>LinkedIn</span>
               </div>
             </div>
           </div>
