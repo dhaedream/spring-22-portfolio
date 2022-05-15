@@ -8,6 +8,11 @@ const headerMotion = {
   screeninit: { y: 0, transition: { duration: 1.5 } },
 };
 
+const imgMotion = {
+  screenstart: { opacity: 0 },
+  screeninit: { opacity: 1, transition: { duration: 3 } },
+};
+
 const Header = () => {
   return (
     <div className="header_container">
@@ -21,9 +26,9 @@ const Header = () => {
         </motion.h2>
       </div>
       <motion.img
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 3 }}
+        initial={"screenstart"}
+        animate={"screeninit"}
+        variants={imgMotion}
         src={bannerImg}
         className="header_banner-img"
       />
