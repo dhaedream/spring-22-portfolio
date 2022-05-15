@@ -4,13 +4,28 @@ import codeProject from "../../assets/solidity-code.png";
 import boredApe from "../../assets/bored-ape.png";
 import nft from "../../assets/nft.png";
 import land from "../../assets/land.png";
+import { motion } from "framer-motion";
+
+const headerMotion = {
+  screenstart: { y: -300 },
+  screeninit: { y: 0, transition: { duration: 1.5 } },
+};
 
 const Projects = () => {
   return (
     <div className="projects">
       {/* <h1 className="projects_header">PROJECTS</h1> */}
       <div className="projects_outer-container">
-        <h1 className="projects_header">PROJECTS</h1>
+        <motion.h1
+          // style when page first loads
+          initial={"screenstart"}
+          // style after initial animation
+          animate={"screeninit"}
+          variants={headerMotion}
+          className="projects_header"
+        >
+          PROJECTS
+        </motion.h1>
 
         <div className="projects_row-container">
           <div className="projects_single-container">

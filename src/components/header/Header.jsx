@@ -18,7 +18,9 @@ const Header = () => {
     <div className="header_container">
       <div className="header_top">
         <motion.h2
+          // style when page first loads
           initial={"screenstart"}
+          // style after initial animation
           animate={"screeninit"}
           variants={headerMotion}
         >
