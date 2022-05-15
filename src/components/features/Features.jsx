@@ -24,7 +24,7 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">BACKGROUND</h3>
           <p className="features_body-para">
-            <p>Artist</p>
+            <p>Lifelong Artist</p>
             <p>5 years in IT Support</p>
             <p>Freelance Graphic Design</p>
           </p>
@@ -45,8 +45,8 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">MY DREAM</h3>
           <p className="features_body-para">
-            <p>Build on blockchain!</p>
-            <p>Learn on an awesome team</p>
+            <p>Build + Inspire</p>
+            <p>Grow Professionally</p>
             <p>Become a Web3 Expert</p>
           </p>
         </div>

@@ -19,7 +19,7 @@ const Projects = () => {
               <h3>BORED APE CLONE</h3>
               <p>
                 This is a clone of a very popular NFT website. Built using
-                React, just like this website.
+                React, just like this website;-)
               </p>
             </div>
           </div>
@@ -28,9 +28,8 @@ const Projects = () => {
             <div className="projects_description-wrapper">
               <h3>MINTING DAPP</h3>
               <p>
-                Decentralized application. Users will be able to create,
-                purchase, & sell custom NFT's on a test blockchain network.
-                Currently connecting Smart Contracts to a front end.
+                Users will be able to create/buy/sell custom Ethereum NFT's.
+                Currently working on Smart Contracts and front end.
               </p>
             </div>
           </div>
@@ -39,11 +38,10 @@ const Projects = () => {
           <div className="projects_single-container">
             <img className="projects_img" src={land} />
             <div className="projects_description-wrapper">
-              <h3>PROPERTY NFT METAVERSE</h3>
+              <h3>PROPERTY NFT-VERSE</h3>
               <p>
-                In this decentralized application, users will be able to create,
-                purchase, and sell NFT real-estate in a 3D Metaverse. Currently
-                troubleshooting Land smart contract.
+                Users will be able to create/buy/sell NFT real-estate in a 3D
+                Metaverse. Currently Troubleshooting Land smart contract.
               </p>
             </div>
           </div>

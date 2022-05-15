@@ -28,6 +28,7 @@
   background: url("../../assets/gradient-background.png");
   background-size: 150%;
   /* border: solid rgb(79, 37, 196) 4px; */
+  min-height: 60vh;
   height: fit-content;
   width: 100vw;
   padding: 5vh 0;
