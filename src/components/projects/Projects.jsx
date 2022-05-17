@@ -19,8 +19,10 @@ const Projects = () => {
         <motion.h1
           // style when page first loads
           initial={"screenstart"}
-          // style after initial animation
-          animate={"screeninit"}
+          // style while in view
+          whileInView={"screeninit"}
+          // viewport tru plays multiple times. false play oonce
+          viewport={{ once: false, amount: 0.1 }}
           variants={headerMotion}
           className="projects_header"
         >
