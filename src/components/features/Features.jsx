@@ -13,9 +13,9 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">SKILLSET</h3>
           <div className="features_body-para">
-            <p> Team Player </p>
-            <p>Web Designer /Developer</p>
-            <p> Blockchain Focused</p>
+            <p>Team Player</p>
+            <p>Developer/Designer</p>
+            <p>Blockchain Junky</p>
           </div>
         </div>
       </div>

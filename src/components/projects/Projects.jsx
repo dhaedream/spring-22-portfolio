@@ -17,6 +17,23 @@ const Projects = () => {
       {/* <h1 className="projects_header">PROJECTS</h1> */}
       <div className="projects_outer-container">
         <motion.h1
+          // blinking functionality
+          style={{ fontSize: "6rem", padding: "8vh 0 4vh 0" }}
+          animate={{
+            textShadow: [
+              "0 0 4px #fff",
+              "0 0 11px #fff",
+              "0 0 19px #fff",
+              "0 0 40px #0fa",
+              "0 0 80px #0fa",
+              "0 0 90px #0fa",
+              "0 0 100px #0fa",
+              "0 0 150px #0fa",
+            ],
+            opacity: [0.2, 0.5, 1],
+          }}
+          transition={{ duration: 0.8, repeat: Infinity, repeatDelay: 2.2 }}
+          //@dev moving component
           // style when page first loads
           initial={"screenstart"}
           // style while in view
