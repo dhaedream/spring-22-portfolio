@@ -7,7 +7,7 @@ import cloudIcon from "../../assets/cloud-dark.png";
 
 const Features = () => {
   return (
-    <div className="features">
+    <div id="skills" className="features">
       <div className="features_single-column">
         <img src={skillsIcon} className="features_icon-img" />
         <div className="features_content-wrapper">

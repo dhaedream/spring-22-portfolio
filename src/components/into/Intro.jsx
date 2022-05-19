@@ -9,7 +9,7 @@ const helloMotion = {
 
 const Intro = () => {
   return (
-    <div href="#about" className="intro_container">
+    <div id="about" className="intro_container">
       {/* <motion.h2
         animate={{ color: ["black", "white", "white"] }}
         transition={{ duration: 2, repeat: Infinity }}

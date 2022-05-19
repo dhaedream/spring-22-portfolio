@@ -13,12 +13,12 @@ const headerMotion = {
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       {/* <h1 className="projects_header">PROJECTS</h1> */}
       <div className="projects_outer-container">
         <motion.h1
           // blinking functionality
-          style={{ fontSize: "6rem", padding: "8vh 0 4vh 0" }}
+          style={{ fontSize: "3.5rem", padding: "8vh 0 4vh 0" }}
           animate={{
             textShadow: [
               "0 0 4px #fff",

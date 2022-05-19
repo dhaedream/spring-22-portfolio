@@ -8,7 +8,7 @@ import linkedin from "../../assets/contact-linkedin.png";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       {/* Will make seprate cloud component */}
       {/* <div className="contact_cloud">
         <img className="contact_cloud-img" src={cloud} />
