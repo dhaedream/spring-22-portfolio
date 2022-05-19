@@ -10,7 +10,7 @@ const headerMotion = {
 
 const imgMotion = {
   screenstart: { opacity: 0 },
-  screeninit: { opacity: 1, transition: { duration: 3 } },
+  screeninit: { opacity: 0.8, transition: { duration: 4 } },
 };
 
 const Header = () => {
