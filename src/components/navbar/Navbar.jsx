@@ -26,17 +26,22 @@ const Navbar = () => {
         </p>
       </div>
       <div className="navbar_logo-container">
-        <a>
-          <img src={linLogo} href="https://linkedin.com/in/dhaesha" />
+        <a
+          href="https://linkedin.com/in/dhaesha"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linLogo} />
         </a>
-        <a>
-          <img
-            src={disLogo}
-            href="https://discord.com/users/961022680776196106"
-          />
+        <a
+          href="https://discord.com/users/961022680776196106"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={disLogo} />
         </a>
-        <a>
-          <img src={gitLogo} href="https://github.com/dhaedream" />
+        <a href="https://github.com/dhaedream" target="_blank" rel="noreferrer">
+          <img src={gitLogo} />
         </a>
       </div>
     </div>
