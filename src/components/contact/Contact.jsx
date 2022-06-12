@@ -35,7 +35,7 @@ const Contact = () => {
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
                 <img className="" src={phone} />
-                <span>202-550-1234</span>
+                <span>202-500-5721</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
