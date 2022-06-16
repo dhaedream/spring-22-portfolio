@@ -1,6 +1,6 @@
 .projects {
   /* padding-bottom: 5vh; */
-  padding-top: 3vh;
+  /* padding-top: 3vh; */
   /* padding: 8vh 0; */
 }
 .projects_outer-container {
@@ -9,8 +9,10 @@
   /* padding-bottom: 5vh; */
 }
 .projects_header {
-  margin: 0 auto 9vh;
-  font-size: 4rem;
+  /* margin: 0 auto 9vh;
+  font-size: 4rem; */
+  padding: 8vh 0 2vh 0;
+  margin-left: 7px;
 }
 .projects_row-container {
   width: 100%;

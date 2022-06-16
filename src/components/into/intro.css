@@ -3,11 +3,12 @@
   flex-direction: column;
   padding-bottom: 2vh;
 }
-/* .intro-header {
-  font-size: 6rem;
-  /* color: azure; 
-  padding: 8vh 0 4vh 0;
-} */
+.intro-header {
+  /* font-size: 6rem;
+   color: azure; 
+  padding: 8vh 0 4vh 0; */
+  margin-left: 7px;
+}
 .intro-par {
   font-size: 2.4rem;
   line-height: 2.9rem;
@@ -25,7 +26,7 @@
     padding-bottom: 0;
   } */
   .intro-header {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     padding: 8vh 0 2vh 0;
   }
   .intro-par {

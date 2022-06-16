@@ -19,7 +19,7 @@ const Intro = () => {
       </motion.h2> */}
       <motion.h2
         className="intro-header"
-        style={{ fontSize: "6rem", padding: "8vh 0 4vh 0" }}
+        style={{ fontSize: "4rem", padding: "8vh 0 4vh 0" }}
         animate={{
           textShadow: [
             "0 0 4px #fff",

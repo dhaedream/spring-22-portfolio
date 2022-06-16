@@ -48,7 +48,7 @@ const Projects = () => {
 
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img className="projects_img" src={boredApe} />
+            <img className="projects_img" src={boredApe} alt="boredApe" />
             <div className="projects_description-wrapper">
               <h3>BORED APE CLONE</h3>
               <p>
@@ -58,19 +58,19 @@ const Projects = () => {
             </div>
           </div>
           <div className="projects_single-container">
-            <img className="projects_img" src={nft} />
+            <img className="projects_img" src={nft} alt="" />
             <div className="projects_description-wrapper">
-              <h3>MINTING DAPP</h3>
+              <h3>GREETER DAPP</h3>
               <p>
-                Users will be able to create/buy/sell custom Ethereum NFT's.
-                Currently working on Smart Contracts and front end.
+                Decentralized application built with react and hardhat. Connect,
+                update & retrieve data from Goerli testnet.
               </p>
             </div>
           </div>
         </div>
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img className="projects_img" src={land} />
+            <img className="projects_img" src={land} alt="" />
             <div className="projects_description-wrapper">
               <h3>PROPERTY NFT-VERSE</h3>
               <p>
@@ -80,7 +80,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projects_single-container">
-            <img className="projects_img" src={codeProject} />
+            <img className="projects_img" src={codeProject} alt="codeProject" />
             <div className="projects_description-wrapper">
               <h3>SMART CONTRACTS</h3>
               <p>
