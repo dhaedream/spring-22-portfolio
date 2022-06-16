@@ -28,25 +28,25 @@ const Contact = () => {
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={targetIcon} />
+                <img className="" src={targetIcon} alt="targetIcon" />
                 <span>Washington D.C.</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={phone} />
+                <img className="" src={phone} alt="phone" />
                 <span>202-500-5721</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={github} />
+                <img className="" src={github} alt="github" />
                 <span>Github</span>
               </div>
             </div>
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={linkedin} />
+                <img className="" src={linkedin} alt="linkedin" />
                 <span>LinkedIn</span>
               </div>
             </div>
