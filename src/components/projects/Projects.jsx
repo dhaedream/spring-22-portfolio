@@ -3,7 +3,7 @@ import "./projects.css";
 import codeProject from "../../assets/solidity-code.png";
 import boredApe from "../../assets/bored-ape.png";
 import nft from "../../assets/nft.png";
-import land from "../../assets/land.png";
+import greeter from "../../assets/greeter.jpg";
 import { motion } from "framer-motion";
 
 const headerMotion = {
@@ -60,7 +60,7 @@ const Projects = () => {
           <div className="projects_single-container">
             <img className="projects_img" src={nft} alt="" />
             <div className="projects_description-wrapper">
-              <h3>GREETER DAPP</h3>
+              <h3>Custom 3D Model</h3>
               <p>
                 Decentralized application built with react and hardhat. Connect,
                 update & retrieve data from Goerli testnet.
@@ -70,19 +70,19 @@ const Projects = () => {
         </div>
         <div className="projects_row-container">
           <div className="projects_single-container">
-            <img className="projects_img" src={land} alt="" />
+            <img className="projects_img" src={greeter} alt="" />
             <div className="projects_description-wrapper">
-              <h3>PROPERTY NFT-VERSE</h3>
+              <h3>GREETER DAPP</h3>
               <p>
-                Users will be able to create/buy/sell NFT real-estate in a 3D
-                Metaverse. Currently Troubleshooting Land smart contract.
+                Decentralized application built with react and hardhat. Connect,
+                update & retrieve data from Goerli testnet.{" "}
               </p>
             </div>
           </div>
           <div className="projects_single-container">
             <img className="projects_img" src={codeProject} alt="codeProject" />
             <div className="projects_description-wrapper">
-              <h3>SMART CONTRACTS</h3>
+              <h3>BUY ME COFFEE</h3>
               <p>
                 With a nice understanding of the blockchain, I have been coding
                 Smart Contracts using solidity on test networks.

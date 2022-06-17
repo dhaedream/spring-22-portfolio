@@ -1,5 +1,5 @@
 .features {
-  padding: 10vh 0;
+  padding: 10vh 2vw;
   /* padding: 8vh 0 4vh 0; */
 
   margin-bottom: 2vh;
@@ -17,6 +17,8 @@
   height: 20vh;
   width: 20vh;
   margin-bottom: 4vh;
+  align-self: center;
+  margin-right: 3vw;
 }
 .features_header {
   font-size: 1.5rem;
@@ -44,6 +46,7 @@
     width: 80vw;
     padding-left: 1vw;
     margin: 1.2vh 0;
+    padding-bottom: 3.5vh;
 
     /* border: 1px solid #f00; */
   }
