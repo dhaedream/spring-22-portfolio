@@ -6,7 +6,7 @@ const Cloud = () => {
   return (
     <div className="cloud_container">
       {/* <div className="cloud_wrap"> */}
-      <img className="cloud_img" src={cloud} />
+      <img alt="cloud" className="cloud_img" src={cloud} />
       {/* </div> */}
     </div>
   );

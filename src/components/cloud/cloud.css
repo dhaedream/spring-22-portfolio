@@ -15,7 +15,17 @@
 }
 .cloud_img {
   height: 250px;
-  /* margin-bottom: 20px; */
-  /* position: absolute; */
-  /* position: relative; */
+}
+/* small screen */
+@media (max-width: 575.98px) {
+  .cloud_container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100px;
+    width: 100%;
+  }
 }

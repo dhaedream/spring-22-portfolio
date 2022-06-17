@@ -94,14 +94,14 @@
     padding-top: 0.4rem;
     /* width: 80; */
   }
-  .features_icon-img {
+  /* .features_icon-img {
     height: 17vh;
     width: 17vh;
     margin-bottom: 4vh;
-  }
+  } */
   .features_icon-img {
-    height: 14vh;
-    width: 14vh;
+    height: 12.5vh;
+    width: 12.5vh;
     margin-bottom: 1vh;
   }
   .features_header {

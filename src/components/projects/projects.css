@@ -60,6 +60,9 @@
 }
 /* medium screen */
 @media screen and (max-width: 992px) {
+  .projects_row-container {
+    justify-content: center;
+  }
 }
 
 /* small screen */
@@ -74,6 +77,9 @@
   .projects_single-container {
     width: 100vw;
     padding-bottom: 8vh;
+  }
+  .projects h1 {
+    font-size: 3rem;
   }
   .projects_img {
     width: 98vw;

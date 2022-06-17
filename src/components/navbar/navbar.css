@@ -41,16 +41,20 @@
 @media screen and (max-width: 992px) {
   .navbar_container {
     padding: 1vh 2vh;
+    margin-bottom: 1rem;
   }
   .navbar_link {
     padding: 0 2vw;
   }
   .navbar_container {
-    height: 15vh;
+    height: 12vh;
   }
-  .navbar_links-container a {
+  .navbar_links-container {
+    display: none;
+  }
+  /* .navbar_links-container a {
     font-size: 1.3rem;
-  }
+  } */
 }
 /* small screen */
 @media (max-width: 575.98px) {
