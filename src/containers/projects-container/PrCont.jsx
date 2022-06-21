@@ -1,11 +1,12 @@
 import React from "react";
 import "./prcont.css";
-import codeProject from "../../assets/solidity-code.png";
-import boredApe from "../../assets/bored-ape.png";
-import nft from "../../assets/nft.png";
-import greeter from "../../assets/greeter.jpg";
+// import codeProject from "../../assets/solidity-code.png";
+// import boredApe from "../../assets/bored-ape.png";
+// import nft from "../../assets/nft.png";
+// import greeter from "../../assets/greeter.jpg";
 import { motion } from "framer-motion";
 import Project from "../../components/project/Project";
+import ProjectData from "../../components/project/ProjectData";
 
 const headerMotion = {
   screenstart: { y: -300 },
@@ -48,39 +49,12 @@ const PrCont = () => {
         </motion.h1>
 
         <div className="projects_row-container">
-          <Project title="BORED APE CLONE" />
-          <div className="projects_single-container">
-            <img className="projects_img" src={nft} alt="" />
-            <div className="projects_description-wrapper">
-              <h3>Custom 3D Model</h3>
-              <p>
-                Decentralized application built with react and hardhat. Connect,
-                update & retrieve data from Goerli testnet.
-              </p>
-            </div>
-          </div>
+          <Project key={0} details={ProjectData[0]} />
+          <Project key={1} details={ProjectData[1]} />
         </div>
         <div className="projects_row-container">
-          <div className="projects_single-container">
-            <img className="projects_img" src={greeter} alt="" />
-            <div className="projects_description-wrapper">
-              <h3>GREETER DAPP</h3>
-              <p>
-                Decentralized application built with react and hardhat. Connect,
-                update & retrieve data from Goerli testnet.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="projects_single-container">
-            <img className="projects_img" src={codeProject} alt="codeProject" />
-            <div className="projects_description-wrapper">
-              <h3>BUY ME COFFEE</h3>
-              <p>
-                With a nice understanding of the blockchain, I have been coding
-                Smart Contracts using solidity on test networks.
-              </p>
-            </div>
-          </div>
+          <Project key={2} details={ProjectData[2]} />
+          <Project key={3} details={ProjectData[3]} />
         </div>
       </div>
       {/* <button className="projects_button">PROJECTS</button> */}
