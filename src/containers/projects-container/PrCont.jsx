@@ -48,7 +48,7 @@ const PrCont = () => {
         </motion.h1>
 
         <div className="projects_row-container">
-          <Project />
+          <Project title="BORED APE CLONE" />
           <div className="projects_single-container">
             <img className="projects_img" src={nft} alt="" />
             <div className="projects_description-wrapper">
