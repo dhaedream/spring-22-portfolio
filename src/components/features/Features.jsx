@@ -12,20 +12,22 @@ const Features = () => {
         <img src={techIcon} className="features_icon-img" alt="tech" />
         <div className="features_content-wrapper">
           <h3 className="features_header">TECHNOLOGIES</h3>
-          <p className="features_body-para">
-            <p>React, HardHat, Truffle, Ethers, Web3</p>
-            <p>a little python + DB models</p>
-          </p>
+          <div className="features_body-para">
+            <p>
+              React, HardHat, Tailwind, Ethers, Web3.js, Truffle, Solidity,
+              Databases
+            </p>
+          </div>
         </div>
       </div>
       <div className="features_single-column">
         <img src={fileIcon} className="features_icon-img" alt="background" />
         <div className="features_content-wrapper">
           <h3 className="features_header">BACKGROUND</h3>
-          <p className="features_body-para">
+          <div className="features_body-para">
             <p>5 years of IT Support</p>
             <p>Freelance Graphic Design</p>
-          </p>
+          </div>
         </div>
       </div>{" "}
       <div className="features_single-column">
@@ -43,11 +45,11 @@ const Features = () => {
         <img src={cloudIcon} className="features_icon-img" alt="dreamer" />
         <div className="features_content-wrapper">
           <h3 className="features_header">MY DREAM</h3>
-          <p className="features_body-para">
+          <div className="features_body-para">
             <p>Build + Inspire</p>
             <p>Grow Professionally</p>
             <p>Become a Web3 Expert</p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

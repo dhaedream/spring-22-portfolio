@@ -6,7 +6,7 @@ import Features from "./components/features/Features";
 import Header from "./components/header/Header";
 import Intro from "./components/into/Intro";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
+import Projects from "./containers/projects-container/PrCont";
 
 function App() {
   return (

@@ -1,0 +1,105 @@
+.projects {
+  /* padding-bottom: 5vh; */
+  /* padding-top: 3vh; */
+  /* padding: 8vh 0; */
+}
+.projects_outer-container {
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 5vh; */
+}
+.projects_header {
+  /* margin: 0 auto 9vh;
+    font-size: 4rem; */
+  padding: 8vh 0 2vh 0;
+  margin-left: 7px;
+}
+.projects_row-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 8vh;
+}
+.projects_single-container {
+  display: flex;
+  flex-direction: column;
+  width: 48vw;
+}
+.projects_img {
+  width: 48vw;
+  /* height: 40vh; */
+  border-radius: 50px;
+  padding: 10px;
+}
+.projects_description-wrapper {
+  padding-left: 2vw;
+  padding-right: 1vw;
+
+  /* margin: 9px; */
+}
+.projects_single-container h3 {
+  color: var(--color-blue);
+  font-size: 2rem;
+  padding: 2rem 0 1rem;
+}
+.projects_single-container p {
+  /* padding-bottom: 2rem; */
+  /* margin: 1px 3px; */
+  margin-right: 4px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.projects_container-para {
+  margin-right: 4px;
+}
+.projects_button {
+  padding: 7px 5px;
+  font-size: 1.2rem;
+  margin-left: 4vw;
+}
+/* medium screen */
+@media screen and (max-width: 992px) {
+  .projects_row-container {
+    justify-content: center;
+  }
+}
+
+/* small screen */
+@media (max-width: 575.98px) {
+  .projects_row-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 8vh;
+  }
+  .projects_single-container {
+    width: 100vw;
+    padding-bottom: 8vh;
+  }
+  .projects h1 {
+    font-size: 3rem;
+  }
+  .projects_img {
+    width: 98vw;
+  }
+  .projects_single-container h3 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+  .projects_single-container p {
+    /* padding-bottom: 2rem; */
+    /* margin: 1px 3px; */
+    margin-right: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .projects_row-container {
+    /* width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; */
+    padding-bottom: 0;
+  }
+}
