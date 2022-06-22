@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import Banner from "./components/banner/Banner";
 import Cloud from "./components/cloud/Cloud";
@@ -11,6 +12,7 @@ import ProjModal from "./components/proj-modal/ProjModal";
 import Projects from "./containers/projects-container/ProjCont";
 
 function App() {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div className="App">
       <Navbar />
@@ -19,7 +21,7 @@ function App() {
       <Features />
       <Banner />
       <Projects />
-      <ProjModal />
+      <ProjModal open={openModal} />
       <Cloud />
       <Contact />
     </div>
