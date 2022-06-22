@@ -1,5 +1,5 @@
 import React from "react";
-import "./prcont.css";
+import "./projcont.css";
 // import codeProject from "../../assets/solidity-code.png";
 // import boredApe from "../../assets/bored-ape.png";
 // import nft from "../../assets/nft.png";
@@ -20,7 +20,7 @@ const PrCont = () => {
       <div className="projects_outer-container">
         <motion.h1
           // blinking functionality
-          style={{ fontSize: "3.5rem", padding: "8vh 0 4vh 0" }}
+          style={{ fontSize: "3.3rem", padding: "8vh 0 4vh 0" }}
           animate={{
             textShadow: [
               "0 0 4px #fff",

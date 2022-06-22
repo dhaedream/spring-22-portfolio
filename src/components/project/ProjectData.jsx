@@ -1,4 +1,7 @@
 import boredApe from "../../assets/bored-ape.png";
+import greeter from "../../assets/greeter.png";
+import nft from "../../assets/nft.png";
+import codeProject from "../../assets/solidity-code.png";
 
 const ProjectData = [
   {
@@ -10,24 +13,24 @@ const ProjectData = [
   },
   {
     key: 1,
-    img: boredApe,
-    title: "APE CLONE",
+    img: nft,
+    title: "CUSTOM 3D MODEL",
     description:
-      "This is a clone of a very popular NFT website. Built using React, just like this website;-)",
+      "Decentralized application built with react and hardhat. Connect, update & retrieve data from Goerli testnet.",
   },
   {
     key: 2,
-    img: boredApe,
-    title: "BORED",
+    img: greeter,
+    title: "GREETER DAPP",
     description:
-      "This is a clone of a very popular NFT website. Built using React, just like this website;-)",
+      "Decentralized application built with react and hardhat. Connect, update & retrieve data from Goerli testnet.",
   },
   {
     key: 3,
-    img: boredApe,
-    title: "CLONE",
+    img: codeProject,
+    title: "BUY ME COFFEE",
     description:
-      "This is a clone of a very popular NFT website. Built using React, just like this website;-)",
+      "With a nice understanding of the blockchain, I have been coding Smart Contracts using solidity on test networks.",
   },
 ];
 

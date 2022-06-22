@@ -6,8 +6,9 @@ import Features from "./components/features/Features";
 import Header from "./components/header/Header";
 import Intro from "./components/into/Intro";
 import Navbar from "./components/navbar/Navbar";
+import ProjModal from "./components/proj-modal/ProjModal";
 // import ProjectData from "./components/project/ProjectData";
-import Projects from "./containers/projects-container/PrCont";
+import Projects from "./containers/projects-container/ProjCont";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Features />
       <Banner />
       <Projects />
+      <ProjModal />
       <Cloud />
       <Contact />
     </div>
