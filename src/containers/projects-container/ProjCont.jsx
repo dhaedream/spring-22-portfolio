@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+// import ProjModal from "../proj-modal/ProjModal";
+
 import "./projcont.css";
 // import codeProject from "../../assets/solidity-code.png";
 // import boredApe from "../../assets/bored-ape.png";
@@ -14,6 +16,8 @@ const headerMotion = {
 };
 
 const PrCont = () => {
+  // const [openModal, setOpenModal] = useState(false);
+
   return (
     <div id="projects" className="projects">
       {/* <h1 className="projects_header">PROJECTS</h1> */}
@@ -57,6 +61,7 @@ const PrCont = () => {
           <Project key={3} details={ProjectData[3]} />
         </div>
       </div>
+      {/* <ProjModal open={openModal} onClose={() => setOpenModal(false)} /> */}
       {/* <button className="projects_button">PROJECTS</button> */}
     </div>
   );

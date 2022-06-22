@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import ProjModal from "../proj-modal/ProjModal";
 
 const Project = (props) => {
-  const [openModal, setOpenModal] = useState(true);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div className="projects_single-container">
       <img className="projects_img" src={props.details.img} alt="boredApe" />
       <div className="projects_description-wrapper">
-        <h3>{props.details.title}</h3>
+        <h3 onClick={() => setOpenModal(true)}>{props.details.title}</h3>
         <p>{props.details.description}</p>
       </div>
-      <ProjModal open={openModal} />
+      <ProjModal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 };
