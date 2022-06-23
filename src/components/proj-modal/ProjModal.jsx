@@ -14,11 +14,13 @@ const ProjModal = ({ open, onClose, details }) => {
           </p>
           <div className="modal_feature">
             <img className="modal_img" src={details.img} alt="" />
-            <span>React, HardHat, Ethers, Solidity, Typescript, Tailwind</span>
+            <span className="modal_span">
+              React, HardHat, Ethers, Solidity, Typescript, Tailwind
+            </span>
           </div>
 
           <div className="modal_content-wrap">
-            <h4>{details.title}</h4>
+            <h4 className="modal_title">{details.title}</h4>
 
             <div className="modal_details">
               <p>
@@ -36,10 +38,10 @@ const ProjModal = ({ open, onClose, details }) => {
             </div>
             <div className="modal_button-wrap">
               <a href="./" target="_blank" rel="noreferrer">
-                <button className="modal_button">My custom button</button>
+                <button className="modal_button">`{"GitHub>"}`</button>
               </a>
               <a href="./" target="_blank" rel="noreferrer">
-                <button className="modal_button">My custom button</button>
+                <button className="modal_button">`{"Website>"}`</button>
               </a>
             </div>
           </div>
