@@ -24,6 +24,7 @@
   /* add dark transparemnt gradient to background */
   border-radius: 50px;
   padding: 1rem;
+  margin: 1vh 0;
   justify-content: space-around;
 }
 .modal_close {
@@ -38,7 +39,8 @@
   border: 2px solid blue;
   width: 100%;
   /* height:  */
-  max-height: calc(60vh - 70px);
+  /* max-height: calc(60vh - 70px); */
+  height: calc(50vh - 70px);
   padding: 1vh 0;
 }
 .modal_img {
@@ -58,6 +60,7 @@
   flex-direction: column;
   align-items: center;
   min-height: calc(45vh - 70px);
+  /* min-height: fit-content; */
   border: 2px solid yellow;
   border-radius: 50px;
   padding: 1vh 0;
@@ -83,5 +86,16 @@
   width: 45vw;
   border: 2px solid red;
   height: 3rem;
-  padding: 0 4vw;
+  padding: 0 1vw;
+  margin: 1rem 0;
+}
+.modal_button {
+  border-radius: 50px;
+  border: 10px solid transparent;
+  background: linear-gradient(45deg, var(--color-pink), var(--color-blue))
+    border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 1rem 1.5rem;
 }
