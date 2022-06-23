@@ -37,12 +37,16 @@ const ProjModal = ({ open, onClose, details }) => {
               </p>
             </div>
             <div className="modal_button-wrap">
-              <a href="./" target="_blank" rel="noreferrer">
-                <button className="modal_button">`{"GitHub>"}`</button>
-              </a>
-              <a href="./" target="_blank" rel="noreferrer">
-                <button className="modal_button">`{"Website>"}`</button>
-              </a>
+              <div>
+                <a href="./" target="_blank" rel="noreferrer">
+                  <button className="modal_button">`{"GitHub>"}`</button>
+                </a>
+              </div>{" "}
+              <div>
+                <a href="./" target="_blank" rel="noreferrer">
+                  <button className="modal_button">`{"Website>"}`</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
