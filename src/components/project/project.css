@@ -2,6 +2,7 @@
   /* padding-bottom: 5vh; */
   /* padding-top: 3vh; */
   /* padding: 8vh 0; */
+  z-index: -1;
 }
 .projects_outer-container {
   display: flex;
