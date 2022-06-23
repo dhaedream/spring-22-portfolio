@@ -9,9 +9,11 @@ const ProjModal = ({ open, onClose, details }) => {
     <>
       <div className="modal_overlay">
         <div className="modal_container">
-          <p onClick={onClose}>X</p>
+          <p className="modal_close" onClick={onClose}>
+            X
+          </p>
           <div className="modal_feature">
-            {/* <img src={details.img} alt="" /> */}
+            <img className="modal_img" src={details.img} alt="" />
             <span>React, HardHat, Ethers, Solidity, Typescript, Tailwind</span>
           </div>
 

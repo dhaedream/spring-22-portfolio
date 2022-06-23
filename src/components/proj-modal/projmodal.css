@@ -23,3 +23,23 @@
   border-radius: 50px;
   padding: 1rem;
 }
+.modal_close {
+  position: fixed;
+  top: 2vh;
+  right: 2vw;
+}
+.modal_feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid blue;
+  width: 100%;
+}
+.modal_img {
+  width: 55vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 50px;
+  padding: 10px;
+}
