@@ -35,9 +35,9 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">SKILLSET</h3>
           <div className="features_body-para">
-            <p>Dynamic Self Starter</p>
-            <p>Developer/Designer</p>
-            <p>Blockchain Stack</p>
+            <p>Dynamic + Committed Self Starter</p>
+            <p>Developer + Designer</p>
+            <p>Blockchain Stack Aquentenced</p>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Features = () => {
         <div className="features_content-wrapper">
           <h3 className="features_header">MY DREAM</h3>
           <div className="features_body-para">
-            <p>Build + Inspire</p>
+            <p>Build Projects That Inspire</p>
             <p>Grow Professionally</p>
             <p>Become a Web3 Expert</p>
           </div>

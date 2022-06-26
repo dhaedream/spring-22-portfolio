@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import ddLogo from "../../assets/dd-logo.png";
 import disLogo from "../../assets/discord-logo.png";
@@ -11,6 +11,9 @@ import { more } from "react-icons-kit/ikons/more";
 // import {more_2} from 'react-icons-kit/ikons/more_2'
 
 const Navbar = () => {
+  const [popMenu, setPopMenu] = useState(false);
+  const handleMenu = () => {};
+
   return (
     <div className="navbar_container">
       <img src={ddLogo} href="home" id="ddLogo" alt="" />
@@ -50,7 +53,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="navbar-menu-container">
+      <div className="navbar-menu-container" onClick={handleMenu}>
         <Icon icon={more} size={28} />
       </div>
     </div>
