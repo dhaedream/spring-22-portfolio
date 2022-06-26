@@ -118,9 +118,9 @@
   padding: 0.5rem 0.5rem;
 }
 /* medium screen */
-@media screen and (max-width: 992px) {
+
+/* @media screen and (max-width: 992px) {
   .modal_container {
-    /* border: 2px solid red; */
     width: calc(100vw - 4vw);
     height: calc(100vh - 4vh);
   }
@@ -138,7 +138,6 @@
     justify-content: space-around;
     align-items: center;
     width: 60vw;
-    /* border: 2px solid red; */
     height: 4rem;
     padding: 0 1vw;
     margin-top: 2rem;
@@ -146,8 +145,11 @@
   .modal_img {
     margin-bottom: 1vh;
   }
-}
+} */
+
 /* small screen */
+
+/* 
 @media (max-width: 575.98px) {
   .modal_container {
     min-height: 100vh;
@@ -173,4 +175,4 @@
   .modal_button {
     padding: 0.4rem 0.2rem;
   }
-}
+} */

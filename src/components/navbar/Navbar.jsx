@@ -4,13 +4,17 @@ import ddLogo from "../../assets/dd-logo.png";
 import disLogo from "../../assets/discord-logo.png";
 import gitLogo from "../../assets/github-logo.png";
 import linLogo from "../../assets/linkedin-logo.png";
-
-// LogoLinkedin, LogoDiscord
+import { Icon } from "react-icons-kit";
+// horiz icon
+import { more } from "react-icons-kit/ikons/more";
+// vert icon
+// import {more_2} from 'react-icons-kit/ikons/more_2'
 
 const Navbar = () => {
   return (
     <div className="navbar_container">
-      <img src={ddLogo} href="home" id="ddLogo" />
+      <img src={ddLogo} href="home" id="ddLogo" alt="" />
+
       <div className="navbar_links-container">
         <p className="navbar_link">
           <a href="#about">ABOUT</a>
@@ -25,24 +29,29 @@ const Navbar = () => {
           <a href="#contact">CONTACT</a>
         </p>
       </div>
+
       <div className="navbar_logo-container">
         <a
           href="https://linkedin.com/in/dhaesha"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linLogo} />
+          <img src={linLogo} alt="" />
         </a>
         <a
           href="https://discord.com/users/961022680776196106"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={disLogo} />
+          <img src={disLogo} alt="" />
         </a>
         <a href="https://github.com/dhaedream" target="_blank" rel="noreferrer">
-          <img src={gitLogo} />
+          <img src={gitLogo} alt="" />
         </a>
+      </div>
+
+      <div className="navbar-menu-container">
+        <Icon icon={more} size={28} />
       </div>
     </div>
   );
