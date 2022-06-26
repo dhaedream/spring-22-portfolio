@@ -20,6 +20,9 @@
 .navbar_link {
   padding: 0 1.5vw;
 }
+.navbar_link-closed {
+  display: none;
+}
 .navbar_links-container a {
   font-size: 1.2rem;
   text-decoration: none;
@@ -49,18 +52,18 @@
   .navbar_container {
     height: 12vh;
   }
-  .navbar_links-container {
+  /* .navbar_links-container {
     display: none;
-  }
+  } */
   /* .navbar_links-container a {
     font-size: 1.3rem;
   } */
 }
 /* small screen */
 @media (max-width: 575.98px) {
-  .navbar_links-container {
+  /* .navbar_links-container {
     display: none;
-  }
+  } */
   .navbar_logo-container img {
     height: 4.5vh;
     /* padding-right: 3vh 2vw; */

@@ -8,17 +8,22 @@ import { Icon } from "react-icons-kit";
 // horiz icon
 import { more } from "react-icons-kit/ikons/more";
 // vert icon
-// import {more_2} from 'react-icons-kit/ikons/more_2'
+import { more_2 } from "react-icons-kit/ikons/more_2";
 
 const Navbar = () => {
   const [popMenu, setPopMenu] = useState(false);
-  const handleMenu = () => {};
+  const handleMenu = () => {
+    setPopMenu(!popMenu);
+    console.log("working");
+  };
 
   return (
     <div className="navbar_container">
       <img src={ddLogo} href="home" id="ddLogo" alt="" />
 
-      <div className="navbar_links-container">
+      <div
+        className={popMenu ? "navbar_links-closed" : "navbar_links-container"}
+      >
         <p className="navbar_link">
           <a href="#about">ABOUT</a>
         </p>
@@ -54,7 +59,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-menu-container" onClick={handleMenu}>
-        <Icon icon={more} size={28} />
+        {popMenu ? (
+          <Icon icon={more} size={28} />
+        ) : (
+          <Icon icon={more_2} size={28} />
+        )}
       </div>
     </div>
   );
