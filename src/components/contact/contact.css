@@ -26,7 +26,9 @@
 }
 .contact_card-content-wrapper {
   background: url("../../assets/gradient-background.png");
-  background-size: 150%;
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
   /* border: solid rgb(79, 37, 196) 4px; */
   min-height: 60vh;
   height: fit-content;
@@ -45,7 +47,7 @@
   max-height: 80vh;
   padding: 4vh 0 6vh 5vw;
   border-radius: 50px;
-  background: rgba(0, 0, 0, 0.716);
+  background: rgba(0, 0, 0, 0.675);
   /* border: solid rgb(245, 6, 6) 1px; */
   font-family: skills;
   font-size: 20px;
