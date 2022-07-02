@@ -10,7 +10,7 @@ import linLogo from "../../assets/linkedin-logo.png";
 const Navbar = () => {
   return (
     <div className="navbar_container">
-      <img src={ddLogo} href="home" id="ddLogo" />
+      <img alt="home" src={ddLogo} href="home" id="ddLogo" />
       <div className="navbar_links-container">
         <p className="navbar_link">
           <a href="#about">ABOUT</a>
@@ -31,17 +31,17 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linLogo} />
+          <img src={linLogo} alt="logo" />
         </a>
         <a
           href="https://discord.com/users/961022680776196106"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={disLogo} />
+          <img src={disLogo} alt="logo" />
         </a>
         <a href="https://github.com/dhaedream" target="_blank" rel="noreferrer">
-          <img src={gitLogo} />
+          <img src={gitLogo} alt="logo" />
         </a>
       </div>
     </div>
