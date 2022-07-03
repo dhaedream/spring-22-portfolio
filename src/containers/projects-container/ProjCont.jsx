@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-// import ProjModal from "../proj-modal/ProjModal";
-
 import "./projcont.css";
-// import codeProject from "../../assets/solidity-code.png";
-// import boredApe from "../../assets/bored-ape.png";
-// import nft from "../../assets/nft.png";
-// import greeter from "../../assets/greeter.jpg";
 import { motion } from "framer-motion";
 import Project from "../../components/project/Project";
 import ProjectData from "../../components/project/ProjectData";
@@ -16,8 +10,6 @@ const headerMotion = {
 };
 
 const PrCont = () => {
-  // const [openModal, setOpenModal] = useState(false);
-
   return (
     <div id="projects" className="projects">
       {/* <h1 className="projects_header">PROJECTS</h1> */}
