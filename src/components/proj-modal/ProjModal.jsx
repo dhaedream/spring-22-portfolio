@@ -23,18 +23,7 @@ const ProjModal = ({ open, onClose, details }) => {
             <h4 className="modal_title">{details.title}</h4>
 
             <div className="modal_details">
-              <p>
-                Jelly beans dragée cheesecake bear claw tart jelly beans gummies
-                I love icing. Cake marshmallow cheesecake wafer I love tootsie
-                roll danish I love cotton candy. I love carrot cake bonbon ice
-                cream dessert I love tart sesame snaps marzipan.
-              </p>
-              <p>
-                Cupcake ipsum dolor sit amet oat cake. Dragée shortbread oat
-                cake sweet gummies tootsie roll toffee. I love marshmallow donut
-                gummi bears chocolate cake. Ice cream cake candy canes topping
-                cookie bear claw.
-              </p>
+              <p>{details.description}</p>
             </div>
             <div className="modal_button-wrap">
               <a href={details.glink} target="_blank" rel="noreferrer">

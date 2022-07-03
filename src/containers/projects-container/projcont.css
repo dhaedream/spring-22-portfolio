@@ -52,14 +52,18 @@
 .projects_button {
   padding: 1rem;
   border-radius: 50%;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   margin-left: 4vw;
   background: black;
   color: var(--color-pink);
   border-left: 1px solid var(--color-pink);
-  border-top: 1px solid var(--color-pink);
+  border-top: 5px solid var(--color-pink);
 
   outline: none;
+
+  font-size: 1.3rem;
+  /* line-height: 2.5rem; */
+  letter-spacing: 0.3rem;
 }
 .projects_single-container p {
   /* padding-bottom: 2rem; */
@@ -115,5 +119,8 @@
       flex-direction: row;
       justify-content: space-around; */
     padding-bottom: 0;
+  }
+  .projects_description-wrapper {
+    padding: 1rem 3rem;
   }
 }

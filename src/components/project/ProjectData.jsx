@@ -32,7 +32,7 @@ const ProjectData = [
     title: "GREETER DAPP",
     tech: "React, Hardhat, Ethers.js, Typescript, Tailwind",
     description:
-      "Decentralized application built with react and hardhat. Connect, update & retrieve data from Goerli testnet.",
+      "Decentralized application built with react, tailwind,  and hardhat. Connect, update & retrieve data from Goerli testnet.",
     details: "",
     glink: "https://github.com/dhaedream/greet-1",
     dlink: "https://dhaedream.github.io/greet-1/",

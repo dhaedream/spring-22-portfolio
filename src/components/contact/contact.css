@@ -71,3 +71,10 @@
   font-size: 2rem;
   padding-left: 0.8rem;
 }
+
+/* small screen */
+@media (max-width: 575.98px) {
+  .contact_card-main {
+    width: 94vw;
+  }
+}
