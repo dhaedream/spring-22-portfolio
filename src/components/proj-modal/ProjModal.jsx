@@ -1,5 +1,4 @@
 import React from "react";
-import demo from "../../assets/greeter.png";
 import "./projmodal.css";
 
 const ProjModal = ({ open, onClose, details }) => {
