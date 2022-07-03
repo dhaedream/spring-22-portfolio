@@ -42,8 +42,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   justify-content: center;
-  min-width: 85vw;
-  max-width: 90vw;
+  width: 85vw;
+  max-width: 600px;
+  /* max-width: 90vw; */
   max-height: 80vh;
   padding: 4vh 0 6vh 5vw;
   border-radius: 50px;
