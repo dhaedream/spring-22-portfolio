@@ -13,9 +13,11 @@ const Project = (props) => {
         onClick={() => setOpenModal(true)}
       />
       <div className="projects_description-wrapper">
-        <h3 onClick={() => setOpenModal(true)}>{details.title}</h3>
+        <h3>{details.title}</h3>
         {/* <p>{details.description}</p> */}
-        <button className="projects_button">More</button>
+        <button onClick={() => setOpenModal(true)} className="projects_button">
+          More
+        </button>
       </div>
       <ProjModal
         details={details}

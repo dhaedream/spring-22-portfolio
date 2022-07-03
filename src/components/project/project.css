@@ -63,6 +63,7 @@
   padding: 7px 5px;
   font-size: 1.2rem;
   margin-left: 4vw;
+  background-color: pink;
 }
 /* medium screen */
 @media screen and (max-width: 992px) {

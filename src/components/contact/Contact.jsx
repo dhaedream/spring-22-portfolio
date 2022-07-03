@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="contact_card-main">
             <div className="contact_card-row-wrap">
               <div className="contact_card-row">
-                <img className="" src={avatar} />
+                <img className="" src={avatar} alt="img" />
                 <span>Dhaesha Myers</span>
               </div>
             </div>
