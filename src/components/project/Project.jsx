@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjModal from "../proj-modal/ProjModal";
+import { motion } from "framer-motion";
 
 const Project = (props) => {
   const [openModal, setOpenModal] = useState(false);
@@ -15,9 +16,13 @@ const Project = (props) => {
       <div className="projects_description-wrapper">
         <h3>{details.title}</h3>
         {/* <p>{details.description}</p> */}
-        <button onClick={() => setOpenModal(true)} className="projects_button">
+        <motion.button
+          animate={{ color: "white" }}
+          onClick={() => setOpenModal(true)}
+          className="projects_button"
+        >
           More
-        </button>
+        </motion.button>
       </div>
       <ProjModal
         details={details}
