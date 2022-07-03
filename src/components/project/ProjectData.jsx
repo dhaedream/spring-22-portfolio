@@ -32,8 +32,9 @@ const ProjectData = [
     title: "GREETER DAPP",
     tech: "React, Hardhat, Ethers.js, Typescript, Tailwind",
     description:
-      "Decentralized application built with react, tailwind,  and hardhat. Connect, update & retrieve data from Goerli testnet.",
-    details: "",
+      "Greeter Dapp is a decentralized application built with react, and hardhat. A standard greeter smart contract was deployed to the Goereli testnet at : {##} . With every deployment, hardhat auto generates ABI + Bytecode files . I used the ABI file to call methods from the contract. The front-end was built for anyone connected to Goerili on Metamask to retrieve and update the state of the contract on the Goerili test Ethereum Blockchain.",
+    details:
+      "For the fron end, I envisioned a futuristic space station with a block chain generator. That estetic came togather with a vibrant + dark background that moves through space. Adding just a little transparency to the main card enhances the futuristic ui . I may update the DApp to allow light sensitive users to freeze the background.",
     glink: "https://github.com/dhaedream/greet-1",
     dlink: "https://dhaedream.github.io/greet-1/",
   },

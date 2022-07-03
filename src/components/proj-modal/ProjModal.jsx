@@ -24,6 +24,7 @@ const ProjModal = ({ open, onClose, details }) => {
 
             <div className="modal_details">
               <p>{details.description}</p>
+              <p>{details.details}</p>
             </div>
             <div className="modal_button-wrap">
               <a href={details.glink} target="_blank" rel="noreferrer">

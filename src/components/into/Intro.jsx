@@ -47,11 +47,11 @@ const Intro = () => {
         Hello World
       </motion.h2>
       <p className="intro-par">
-        MY NAME IS <span>DHAESHA MYERS</span> . I AM A{" "}
-        <span>CREATIVE WEB3 DEVELOPER</span> WITH A PASSION FOR ART AND
-        TECHNOLOGY. EQUIPPED WITH <span>SOLID FRONT END DEVELOPMENT </span>
-        SKILLS, I EXPLORE NEW WAYS TO CONNECT PRETTY WEBSITES TO THE
-        <span> ETHEREUM BLOCKCHAIN</span>.
+        MY NAME IS <span>DHAESHA MYERS</span> . I AM A
+        <span> CREATIVE WEB3 DEVELOPER </span>THAT EXPLORES ART WITH TECHNOLOGY.
+        I HAVE <span>SOLID FRONT END DEVELOPMENT </span>
+        SKILLS AND I WISH TO BE A PIONEER ON THE FOREFRONT OF THE
+        <span> BLOCKCHAIN </span>SPACE.
       </p>
     </div>
   );
