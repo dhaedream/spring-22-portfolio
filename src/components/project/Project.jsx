@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import ProjModal from "../proj-modal/ProjModal";
 import { motion } from "framer-motion";
 
-const headerMotion = {
-  screenstart: { x: 100 },
-  screeninit: { x: 0, transition: { duration: 1 } },
+const buttonMotion = {
+  screenstart: { y: -70 },
+  screeninit: { y: 0, transition: { duration: 1 } },
 };
 
 const Project = (props) => {
@@ -46,7 +46,7 @@ const Project = (props) => {
             whileInView={"screeninit"}
             // viewport tru plays multiple times. false play oonce
             viewport={{ once: false, amount: 0.1 }}
-            variants={headerMotion}
+            variants={buttonMotion}
             className="projects_button"
           >
             More

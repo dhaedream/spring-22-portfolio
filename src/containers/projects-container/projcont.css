@@ -2,7 +2,7 @@
   /* padding-bottom: 5vh; */
   /* padding-top: 3vh; */
   /* padding: 8vh 0; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .projects_outer-container {
   display: flex;
@@ -36,6 +36,9 @@
   justify-content: space-between;
   padding: 5px 3vw;
   height: 6rem;
+  /* max-width: 100vw; */
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
 }
 .projects_single-container h3 {
   color: var(--color-blue);
