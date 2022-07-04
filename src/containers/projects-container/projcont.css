@@ -61,6 +61,7 @@
   letter-spacing: 0.2rem;
 }
 .projects_single-container p {
+  margin-top: 10px;
   margin-right: 4px;
   font-size: 1.5rem;
   line-height: 2rem;
