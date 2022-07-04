@@ -105,6 +105,7 @@
   font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.17rem;
+  background: rgba(0, 0, 0, 0);
 }
 .modal_button-wrap {
   display: flex;

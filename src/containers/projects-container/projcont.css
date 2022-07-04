@@ -61,13 +61,18 @@
   letter-spacing: 0.2rem;
 }
 .projects_single-container p {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 4px;
   font-size: 1.5rem;
   line-height: 2rem;
+  top: 29px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.8);
 }
 .projects_container-para {
   margin-right: 4px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50%;
 }
 
 /* medium screen */
