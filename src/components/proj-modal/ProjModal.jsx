@@ -16,9 +16,7 @@ const ProjModal = ({ open, onClose, details }) => {
               X
             </p>
             <img className="modal_img" src={details.img} alt="" />
-            <span className="modal_span">
-              React, HardHat, Ethers, Solidity, Typescript, Tailwind
-            </span>
+            <span className="modal_span">{details.tech}</span>
           </div>
 
           <div className="modal_content-wrap">
