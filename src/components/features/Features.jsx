@@ -37,7 +37,7 @@ const Features = () => {
           <div className="features_body-para">
             <p>Dynamic + Committed Self Starter</p>
             <p>Developer + Designer</p>
-            <p>Blockchain Stack Aquentenced</p>
+            <p>Blockchain Stack</p>
           </div>
         </div>
       </div>
