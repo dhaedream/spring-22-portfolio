@@ -25,7 +25,9 @@ const ProjectData = [
     details:
       "To connect this app to any blockchain, I would have to create + deploy a smart-contract. Then, I can create a user interface with functions that will call methods from my contract on the blockchain. First, I will have to plan out how the community will behave.",
     glink: "https://github.com/dhaedream/minting-app-front-end",
-    dlink: "https://custom-mint-front-end-deus9l1d1-paintincode.vercel.app/",
+    // https://custom-mint-front-end-2.vercel.app/
+    // dlink: "https://custom-mint-front-end-deus9l1d1-paintincode.vercel.app/",
+    dlink: "https://custom-mint-front-end-2.vercel.app/",
   },
   {
     key: 2,
