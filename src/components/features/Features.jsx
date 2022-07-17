@@ -29,7 +29,7 @@ const Features = () => {
             <p>Freelance Graphic Design</p>
           </div>
         </div>
-      </div>{" "}
+      </div>
       <div className="features_single-column">
         <img src={skillsIcon} className="features_icon-img" alt="skills" />
         <div className="features_content-wrapper">

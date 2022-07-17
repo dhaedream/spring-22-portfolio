@@ -1,7 +1,8 @@
 import boredApe from "../../assets/bored-ape.png";
 import greeter from "../../assets/greeter.png";
 import nft from "../../assets/nft.png";
-import codeProject from "../../assets/solidity-code.png";
+// import codeProject from "../../assets/solidity-code.png";
+import portfolio from "../../assets/portfolio1.png";
 
 const ProjectData = [
   {
@@ -43,11 +44,11 @@ const ProjectData = [
   },
   {
     key: 3,
-    img: codeProject,
-    title: "AI CLONE",
-    tech: "React",
+    img: portfolio,
+    title: "MY FIRST PORTFOLIO",
+    tech: "HTML, CSS, Javascript",
     description:
-      "With a nice understanding of the blockchain, I have been coding Smart Contracts using solidity on test networks.",
+      "This is my original portfoio from this past Winter. A super basic website I had to reimagine by Spring 2022. As an artist, I must note, there is nothing spactacular about this original portfolio's design or code. It's here to prove how much I've learned in about 6 months of hard (independent) work. I did not feel like a developer 6 months ago creating my original portfolio. Today, I am confident and hopeful to join a fabulous team.",
     details: "",
     glink: "https://github.com/dhaedream/modern-ui-clone/settings",
     dlink: "",
