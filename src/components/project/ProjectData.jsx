@@ -22,9 +22,9 @@ const ProjectData = [
     title: "CUSTOM 3D MODEL",
     tech: "React, React-Router-Dom, React-Three-Fiber, GLFT Models",
     description:
-      "The idea was to create a community where NFT's can be customized, minted, and traded. If I could, I would build a 3D/VR space... maybe next project. For now, I built a front-end web app capable of customizing the color of a cute alien I found online. My biggest challenge was incorporating the 3D canvas inside of the react-dom 'pages'. I was unable to. As of 2022, this one project is technically two because I deployed things seperately.",
-    details:
-      "To connect this app to any blockchain, I would have to create + deploy a smart-contract. Then, I can create a user interface with functions that will call methods from my contract on the blockchain. First, I will have to plan out how the community will behave.",
+      "I imported a 3D model to this react app. The original project used react router-dom to have multiple pages. That conflicted with my 3D canvas and after (breaking) re-creating the project many times, I deployed the 3d canvas page seperate from the react-dom pages.",
+    details: "",
+    // "3D Art Credit : `https://sketchfab.com/3d-models/cute-alien-68d4df606f73431db8b443e9ee138558`",
     glink: "https://github.com/dhaedream/minting-app-front-end",
     // https://custom-mint-front-end-2.vercel.app/
     // dlink: "https://custom-mint-front-end-deus9l1d1-paintincode.vercel.app/",
@@ -50,8 +50,9 @@ const ProjectData = [
     description:
       "This is my original portfoio from this past Winter. A super basic website I had to reimagine by Spring 2022. As an artist, I must note, there is nothing spactacular about this original portfolio's design or code. It's here to prove how much I've learned in about 6 months of hard (independent) work. I did not feel like a developer 6 months ago creating my original portfolio. Today, I am confident and hopeful to join a fabulous team.",
     details: "",
-    glink: "https://github.com/dhaedream/modern-ui-clone/settings",
-    dlink: "",
+
+    glink: "https://github.com/dhaedream/Portfolio",
+    dlink: "https://portfolio-three-sandy-75.vercel.app/",
   },
 ];
 
